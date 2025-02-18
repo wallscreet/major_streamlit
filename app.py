@@ -1,5 +1,5 @@
 import streamlit as st
-from src.db import init_db, add_note, get_notes
+from db import init_db, add_note, get_notes
 
 
 # Initialize the database on first run
