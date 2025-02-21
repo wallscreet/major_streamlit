@@ -1,0 +1,34 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+preauthorized:
+- admin
+- cameron
+- gabe
+users:
+  admin:
+    email: wallscreet@gmail.com
+    name: System Administrator
+    password: $2b$12$UoDKdNezSbcR8oP9IhesquU6NFUS4MRqGCgacXOhQxzchQNm/hOpK
+    role: admin
+  cameron:
+    email: cameron@majorsupply.net
+    name: Cameron Kostoff
+    password: $2b$12$kzd7tQQn.bdjCco88GMzWOAxFAHu0JAE12KkHKd4wkXRIp9UYwio.
+    role: admin
+  david:
+    email: david@majorsupply.net
+    name: David Lima
+    password: $2b$12$lJY9dVbHsTRwj.CHm62N7.koa.Ux7G7u0WUPfYahvu1x5prC3JIhC
+    role: user
+  fred:
+    email: fred@majorsupply.net
+    name: Fred Siembab
+    password: $2b$12$VJ55Uahhk6BMFqIxd3uY0On/B9pgxUISR.ayDb0g.4PgYuER8NQo6
+    role: user
+  gabe:
+    email: gabe@majorsupply.net
+    name: Gabe
+    password: $2b$12$UH8Hvw2CQaohXVG1emV5J.9dycqWZ73FAeILa3VNx6lI967qHALPa
+    role: user
